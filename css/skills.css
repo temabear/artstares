@@ -1,0 +1,80 @@
+.skills-info {
+    opacity: 0.8;
+    width: 1170px;
+    height: 600px;
+    background: #789554;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.programms-logo {
+    display: flex;
+    padding-top: 130px;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.html-logo {
+    filter: blur(5px); 
+    transition: 1s; 
+}
+
+.html-logo:hover {
+    filter: blur(0);
+}
+
+.css-logo {
+    filter: blur(5px);
+    transition: 1s;
+}
+
+.css-logo:hover {
+    filter: blur(0);
+}
+
+.js-logo {
+    filter: blur(5px);
+    transition: 1s;
+}
+
+.js-logo:hover {
+    filter: blur(0);
+}
+
+.design-logo {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ps-logo {
+    filter: blur(5px); 
+    transition: 1s; 
+}
+
+.ps-logo:hover {
+    filter: blur(0);
+}
+
+.ai-logo {
+    filter: blur(5px);
+    transition: 1s;
+}
+
+.ai-logo:hover {
+    filter: blur(0);
+}
+
+.figma-logo {
+    filter: blur(5px);
+    transition: 1s;
+}
+
+.figma-logo:hover {
+    filter: blur(0);
+}

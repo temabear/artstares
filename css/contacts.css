@@ -1,0 +1,17 @@
+h5 {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 100px 0px;
+}
+
+.icons-dark {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 100px 0px;
+}
