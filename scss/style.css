@@ -1,0 +1,56 @@
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #F6FFE4;
+  z-index: 3;
+  -webkit-transition: 5s all;
+  transition: 5s all;
+  opacity: 1;
+  visibility: visible;
+  background: url(https://i.gifer.com/XOsX.gif) center no-repeat;
+  background-color: #F6FFE4;
+}
+
+.preloader .loader {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: -250px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.preloader.done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */

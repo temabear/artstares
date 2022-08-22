@@ -1,0 +1,38 @@
+.portfolio .descr {
+    text-align: center;
+    margin: 90px 0px 30px;
+}
+
+.blender {
+    width: 550px;
+    height: 550px;
+    padding-right: 50px;
+}
+
+.ad {
+    width: 550px;
+    height: 550px;
+}
+
+.macbook {
+    width: 550px;
+    height: 550px;
+    padding-right: 50px;
+}
+
+.iphone {
+    width: 550px;
+    height: 550px;
+}
+
+.denis {
+    width: 1150px;
+    height: 600px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
