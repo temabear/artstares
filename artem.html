@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artstares</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main-content.css">
@@ -15,8 +16,17 @@
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/light.css">
     <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/icons/html.css">
+    <link rel="stylesheet" href="css/icons/css.css">
+    <link rel="stylesheet" href="css/icons/js.css">
+    <link rel="stylesheet" href="css/icons/ps.css">
+    <link rel="stylesheet" href="css/icons/ai.css">
+    <link rel="stylesheet" href="css/icons/figma.css">
 </head>
 <body class="light">
+    <div id="page-preloader" class="preloader">
+        <div class="loader"><span id="load_perc">0%</span></div>
+    </div>
         <div class="header">
             <div class="container">
                 <div class="header-logo-light">
@@ -81,73 +91,68 @@
             <div class="title">Skills</div>
                 <div class="skills-info">
                     <div class="programms-logo">
-                        <div class="html-logo">
-                            <svg width="100" height="100" viewBox="0 0 128 138" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M127.207 0H0L10.9991 123.318L63.6035 137.88L115.73 123.318L127.207 0Z" fill="#F15931"/>
-                                <path d="M103.296 25.0278H23.4329L28.2151 71.4428H83.6888L81.7759 90.5549L63.6035 95.5604L45.4311 90.5549L44.4746 78.7236H28.2151L30.6062 102.386L63.6035 111.487L96.6008 102.386L100.427 55.5161H42.5617L41.1271 40.0444H102.339L103.296 25.0278Z" fill="white"/>
-                            </svg>
-                            <p>HTML</p>
-                        </div>
-                            <div class="css-logo">
-                                    <svg width="100" height="100" viewBox="0 0 128 138" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M127.414 0H0.207031L11.2061 123.318L63.8105 137.88L115.937 123.318L127.414 0Z" fill="#007DC6"/>
-                                        <path d="M107.247 23.2696H21.9253L24.4496 39.1974H65.8483L25.4593 56.6185L27.9836 72.0486H86.5477L84.0234 93.9494L66.8581 97.4336L46.1587 92.9539L45.149 81.008H28.9934L31.0128 105.895L66.8581 116.348L100.179 105.895L104.218 55.1253H68.8775L107.247 39.1974V23.2696Z" fill="white"/>
-                                    </svg>
-                                        <p>CSS</p>
+                        <article class="html">
+                            <div class="html__content">
+                                <div class="html__title">HTML</div>
                             </div>
-                                <div class="js-logo">
-                                    <svg width="100" height="100" viewBox="0 0 128 138" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M127.621 0H0.414062L11.4132 123.318L64.0176 137.88L116.144 123.318L127.621 0Z" fill="#F58233"/>
-                                        <path d="M57.1899 23.2696H43.6333L46.0541 94.3491L36.3708 91.428L35.4025 83.1516L25.235 80.7174L27.6558 106.52L57.1899 114.797V23.2696Z" fill="white"/>
-                                        <path d="M101.249 23.2696H63.9682V72.441L84.3031 71.4673L82.3665 93.3754L63.9682 98.2438V114.797L94.4706 106.52L98.3439 56.3751H77.5248L78.4932 38.8487H99.7964L101.249 23.2696Z" fill="white"/>
-                                    </svg>
-                                        <p>JavaScript</p>
-                                </div>   
+                        </article>
+                        <arcticle class="html-dark">
+                            <div class="html-dark__content">
+                                <div class="html-dark__title">HTML</div>
+                            </div>
+                        </arcticle>
+                            <article class="css">
+                                    <div class="css__content">
+                                        <div class="css__title">CSS</div>
+                                    </div>
+                            </article>
+                            <arcticle class="css-dark">
+                                <div class="css-dark__content">
+                                    <div class="css-dark__title">CSS</div>
+                                </div>
+                            </arcticle>
+                                <article class="js">
+                                    <div class="js__content">
+                                        <div class="js__title">JavaScript</div>
+                                    </div>
+                                </article>
+                                <article class="js-dark">
+                                    <div class="js-dark__content">
+                                        <div class="js-dark__title">JavaScript</div>
+                                    </div>
+                                </article>    
                         </div>
                                 <div class="design-logo">
-                                        <div class="ps-logo"> 
-                                                <svg width="90" height="90" viewBox="0 0 130 129" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M5.38965 5.48605H123.936V122.855H5.38965V5.48605Z" fill="url(#paint0_radial_119_137)"/>
-                                                    <path d="M5.38964 5.48602H123.936V122.855H5.38964V5.48602ZM0 128.341H129.299V0H0V128.341ZM87.1929 52.671C82.9434 52.671 81.4923 54.8602 81.4923 56.68C81.4923 58.6582 82.4511 60.0297 88.1776 63.0364C96.6248 67.2037 99.2678 71.2127 99.2678 77.068C99.2678 85.8509 92.6862 90.572 83.7985 90.572C79.1085 90.572 75.0662 89.5961 72.7601 88.2246C72.3714 88.0664 72.3196 87.7763 72.3196 87.3543V79.2571C72.3196 78.7032 72.5787 78.545 72.9674 78.8087C76.3618 81.0506 80.2486 82.0529 83.7985 82.0529C88.048 82.0529 89.8359 80.233 89.8359 77.7801C89.8359 75.802 88.5922 74.0612 83.1507 71.1863C75.5067 67.4675 72.3196 63.6958 72.3196 57.3658C72.3196 50.2973 77.7611 44.4156 87.1929 44.4156C91.8311 44.4156 95.0701 45.1278 96.8321 45.9454C97.2726 46.2091 97.3762 46.6575 97.3762 47.0531V54.57C97.3762 55.0184 97.1171 55.2822 96.573 55.1239C94.1891 53.5942 90.691 52.671 87.1929 52.671ZM40.8628 59.1857C42.1065 59.2912 43.0653 59.2912 45.2159 59.2912C51.5125 59.2912 57.4463 57.0493 57.4463 48.3191C57.4463 41.3561 53.1968 37.8482 46.0192 37.8482C43.8685 37.8482 41.8215 37.9537 40.8369 38.0065L40.8628 59.1857ZM31.2495 30.0676C31.2495 29.672 32.001 29.4082 32.4415 29.4082C35.8877 29.25 41.0182 29.1445 46.3301 29.1445C61.2553 29.1445 67.0854 37.479 67.0854 48.1081C67.0854 62.0342 57.1612 68.0213 44.9827 68.0213C42.9357 68.0213 42.2361 67.9158 40.785 67.9158V88.9631C40.785 89.4115 40.6296 89.6225 40.1372 89.6225H31.8973C31.4568 89.6225 31.2495 89.4643 31.2495 88.9631V30.0676Z" fill="#31C5F0"/>
-                                                    <defs>
-                                                    <radialGradient id="paint0_radial_119_137" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(44.4443 31.8179) scale(90.0818 88.7752)">
-                                                    <stop stop-color="#34364E" stop-opacity="0.98"/>
-                                                    <stop offset="1" stop-color="#0C0824"/>
-                                                    </radialGradient>
-                                                    </defs>
-                                                </svg>
-                                                    <p>Adobe <br> Photoshop</p>
+                                        <article class="ps"> 
+                                            <div class="ps__content">
+                                                <div class="ps__title">Adobe <br> Photoshop</div>
                                             </div>
-                                                <div class="ai-logo"> 
-                                                    <svg width="90" height="90" viewBox="0 0 130 129" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.39355 5.49252H124.078V123.08H5.39355V5.49252Z" fill="url(#paint0_radial_119_141)"/>
-                                                        <path d="M5.39356 5.49252H124.078V123.08H5.39356V5.49252ZM0 128.572H129.497V0H0V128.572ZM84.8189 45.8414C84.8189 45.3925 84.9744 45.1812 85.4671 45.1812H93.9464C94.3872 45.1812 94.5947 45.3397 94.5947 45.8414V89.2006C94.5947 89.6495 94.4909 89.8607 93.9464 89.8607H85.5708C85.0263 89.8607 84.8707 89.5967 84.8707 89.1478V45.8414H84.8189ZM84.2224 33.3512C84.2224 29.8391 86.6599 27.753 89.7197 27.753C93.0129 27.753 95.217 29.9976 95.217 33.3512C95.217 36.9689 92.9092 38.9493 89.616 38.9493C86.5043 38.9757 84.2224 36.9953 84.2224 33.3512ZM59.9514 63.9033C58.4475 57.8034 54.8691 44.5211 53.5207 38.0779H53.4169C52.276 44.4947 49.4236 55.3741 47.1677 63.9033H59.9514ZM44.9636 72.8022L40.711 89.2798C40.6073 89.7287 40.4517 89.8343 39.9071 89.8343H31.9724C31.4278 89.8343 31.3241 89.6759 31.4278 89.0157L46.7528 34.4074C47.0121 33.4304 47.1936 32.5326 47.2973 29.8391C47.2973 29.4431 47.4529 29.2846 47.7382 29.2846H59.0698C59.4588 29.2846 59.6143 29.3902 59.7181 29.8391L76.8841 89.1213C76.9878 89.5703 76.8841 89.8343 76.4433 89.8343H67.4972C67.0564 89.8343 66.7971 89.7287 66.6934 89.3326L62.2593 72.8022H44.9636Z" fill="#FF7F18"/>
-                                                        <defs>
-                                                        <radialGradient id="paint0_radial_119_141" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(44.5211 31.8788) scale(90.2038 88.9361)">
-                                                        <stop stop-color="#423325" stop-opacity="0.98"/>
-                                                        <stop offset="1" stop-color="#1C0A00"/>
-                                                        </radialGradient>
-                                                        </defs>
-                                                    </svg>
-                                                        <p>Adobe <br> Illustrator</p>
+                                        </article>
+                                        <article class="ps-dark"> 
+                                            <div class="ps-dark__content">
+                                                <div class="ps-dark__title">Adobe <br> Photoshop</div>
+                                            </div>
+                                        </article>
+                                                <article class="ai"> 
+                                                    <div class="ai__content">
+                                                        <div class="ai__title">Adobe <br> Illustrator</div>
                                                     </div>
-                                                        <div class="figma-logo">
-                                                        <svg width="85" height="90" viewBox="0 0 85 129" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_119_118)">
-                                                            <path d="M21.2435 128.269C32.973 128.269 42.487 118.699 42.487 106.9V85.5302H21.2435C9.51395 85.5302 0 95.1005 0 106.9C0 118.699 9.51395 128.269 21.2435 128.269Z" fill="#0ACF83"/>
-                                                            <path d="M0 64.1345C0 52.3354 9.51395 42.7651 21.2435 42.7651H42.487V85.5302H21.2435C9.51395 85.5039 0 75.9336 0 64.1345Z" fill="#A259FF"/>
-                                                            <path d="M0 21.3694C0 9.57036 9.51395 0 21.2435 0H42.487V42.7651H21.2435C9.51395 42.7651 0 33.1685 0 21.3694Z" fill="#F24E1E"/>
-                                                            <path d="M42.5131 0H63.7565C75.4861 0 85 9.57036 85 21.3694C85 33.1685 75.4861 42.7389 63.7565 42.7389H42.5131V0Z" fill="#FF7262"/>
-                                                            <path d="M85 64.1345C85 75.9336 75.4861 85.504 63.7565 85.504C52.027 85.504 42.5131 75.9336 42.5131 64.1345C42.5131 52.3354 52.027 42.7651 63.7565 42.7651C75.4861 42.7651 85 52.3354 85 64.1345Z" fill="#1ABCFE"/>
-                                                            </g>
-                                                            <defs>
-                                                            <clipPath id="clip0_119_118">
-                                                            <rect width="85" height="128.269" fill="white"/>
-                                                            </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                            <p>Figma</p>
+                                                </article>
+                                                <article class="ai-dark"> 
+                                                    <div class="ai-dark__content">
+                                                        <div class="ai-dark__title">Adobe <br> Illustrator</div>
+                                                    </div>
+                                                </article>
+                                                        <article class="figma">
+                                                            <div class="figma__content">
+                                                                <div class="figma__title">Figma</div>
                                                             </div>
+                                                        </article>
+                                                        <article class="figma-dark">
+                                                            <div class="figma-dark__content">
+                                                                <div class="figma-dark__title">Figma</div>
+                                                            </div>
+                                                        </article>
                                           </div>
                                     </div> 
         </div>
@@ -236,6 +241,6 @@
     </div>
 </div>
 <script src="artem.js" defer></script>
-    
+<script src="js/preloader.js" defer></script> 
 </body>
 </html>

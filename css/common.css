@@ -25,4 +25,5 @@ div {
     font-weight: bold;
     text-align: center;
     transform: translate(0,120px);
+    cursor: default;
 }

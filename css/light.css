@@ -50,3 +50,50 @@ body.light {
     display: none;
 }
 
+.light .html {
+    display: block;
+}
+
+.light .html-dark {
+    display: none;
+}
+
+.light .css {
+    display: block;
+}
+
+.light .css-dark {
+    display: none;
+}
+
+.light .js {
+    display: block;
+}
+
+.light .js-dark {
+    display: none;
+}
+
+.light .ps {
+    display: block;
+}
+
+.light .ps-dark {
+    display: none;
+}
+
+.light .ai {
+    display: block;
+}
+
+.light .ai-dark {
+    display: none;
+}
+
+.light .figma {
+    display: block;
+}
+
+.light .figma-dark {
+    display: none;
+}
