@@ -1,7 +1,7 @@
 .header {
     position: sticky;
     top: 0;
-    background-color: #F6FFE4;
+    background-color: #F9D8FF;
     z-index: 2;
 }
 
@@ -35,7 +35,7 @@ ul {
 }
 
 .header-menu li a:hover {
-    color: #789554;
+    color: #A90098;
 }
 
 a {
@@ -49,4 +49,19 @@ a {
     border-radius: 3px;
     transition: 0.3s;
     padding: 2px;
+}
+
+@media screen and (max-width: 420px) {
+    .header {
+        z-index: 5;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    #toggle-theme-btn {
+        display: none;
+    }
+
 }
