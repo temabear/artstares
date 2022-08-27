@@ -32,9 +32,7 @@
 
 @media screen and (max-width: 420px) {
     .preloader {
-        width: 50%;
-        height: 50%;
-        transition: 999s all;
+        display: none;
     }
 
     .loader {
