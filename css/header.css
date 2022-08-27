@@ -53,7 +53,11 @@ a {
 
 @media screen and (max-width: 420px) {
     .header {
-        z-index: 5;
+        display: none;
+    }
+    
+    .header-logo-light {
+        display: none;
     }
 
     .header-menu {
