@@ -24,3 +24,17 @@
     text-align: center;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 420px) {
+    .skills-info {
+        display: none;
+    }
+
+    .programms-logo {
+        display: none;
+    }
+
+    .design-logo {
+        display: none;
+    }
+}
