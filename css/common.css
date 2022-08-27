@@ -28,8 +28,20 @@ div {
     cursor: default;
 }
 
+.development {
+    display: none;
+}
+
 @media screen and (max-width: 420px) {
     .title {
         display: none;
+    }
+    
+    .development {
+        display: flex;
+        font-size: 24px;
+        font-weight: bold;
+        align-items: center;
+        flex-direction: column;
     }
 }
