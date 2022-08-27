@@ -1,0 +1,81 @@
+h5 {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 100px 0px;
+}
+
+.instagram {
+    transition-duration: 3s;
+}
+
+.instagram:hover {
+    transform: scale(1.4);
+    transition-duration: 3s;
+}
+
+.telegram {
+    transition-duration: 3s;
+}
+
+.telegram:hover {
+    transform: scale(1.4);
+    transition-duration: 3s;
+}
+
+.vk {
+    transition-duration: 3s;
+}
+
+.vk:hover {
+    transform: scale(1.4);
+    transition-duration: 3s;
+}
+
+.icons-dark {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 100px 0px;
+}
+
+.instagram-dark {
+    transition-duration: 3s;
+}
+
+.instagram-dark:hover {
+    transform: scale(1.4);
+    transition-duration: 3s;
+}
+
+.telegram-dark {
+    transition-duration: 3s;
+}
+
+.telegram-dark:hover {
+    transform: scale(1.4);
+    transition-duration: 3s;
+}
+
+.vk-dark {
+    transition-duration: 3s;
+}
+
+.vk-dark:hover {
+    transform: scale(1.4);
+    transition-duration: 3s;
+}
+
+@media screen and (max-width: 420px) {
+    h5 {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+}
