@@ -12,3 +12,13 @@
     font-size: 21px;
     margin: -450px 0px 0px 0px;
 }
+
+@media screen and (max-width: 420px) {
+    .about-photo {
+        display: none;
+    }
+
+    .about-info {
+        display: none;
+    }
+}
