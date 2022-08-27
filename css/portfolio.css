@@ -36,3 +36,23 @@ h6 {
     text-decoration: underline;
     cursor: pointer;
 }
+
+a.text {
+    transition-duration: 1s;
+}
+
+a.text:hover {
+    color: #666;
+    transition-duration: 1s;
+}
+
+a.text:active,
+a.text {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+    .portfolio {
+        display: none;
+    }
+}
